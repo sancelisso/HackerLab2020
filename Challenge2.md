@@ -13,6 +13,8 @@ A cete étape, nous avons comme données: une clé publique, les informations de
 
 Pour y arriver, nous avons généré une clé privée à partir de la clé publique RSA avec l'outil [RSACtfTool](https://github.com/Ganapati/RsaCtfTool)
 ![Génération de la clé privéé](Images/priv.png)
+
+```
 -----BEGIN RSA PRIVATE KEY-----
 MIIEpAIBAAKCAQEAvb5qikCKoFmVBHvmlcVmBC6kVj3I4do/45SKpCYM5feEcqyY
 17hDl1A1XAQC+IQOkdKbfM8ASmnB7mvuASJGHhqKupoMmr8sNW/4mhS66hIT1OK2
@@ -39,7 +41,8 @@ heBgEdXrglzc6o4o4M+oV2pazO3fB7kgAwpnEBCSohurznlWpits3H1pXSDt7QZZ
 CH1QNosCgYAjKCYtMoE1PCxUO+MahPi5vo879t7JdgVfK8lnD9ZRAZYv00/vVhYj
 FWvS565IAdHJ9riCnA5Eak74E5GfIfefXq380vjh0Cq3MLxquJoG69+wU4DavErO
 qz5JfxfpmSyURihSLVsRm06Z/bA78932QW0H25anratFbgURllmtTw==
------END RSA PRIVATE KEY-----```
+-----END RSA PRIVATE KEY-----
+```
 
 A présent, nous allons déchiffrer le message à l'aide du module RSA de python3
 
