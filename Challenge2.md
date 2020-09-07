@@ -50,7 +50,7 @@ A présent, nous allons déchiffrer le message à l'aide du module RSA de python
 ```python
 from Crypto.PublicKey import RSA
 
-private_key_file = open('private-key','r').read()
+private_key_file = open('priv.key','r').read()
 #private-key est le nom de notre fichier contenant la clé privée
 private_key = RSA.importKey(private_key_file) #importation de la clé
 
