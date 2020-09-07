@@ -27,7 +27,7 @@ int main(int argc, char* argv[], char** envp){
 }
 ```
 # Solution
-Il faut comprendre d'abord qu'il y a un control sur le deuxième argument du programme. A cet effet, la réussite de cette épreuve sera effective lorsque nous arrivons à afficher le contenu du fichier *f_l_a_g_* sans utiliser les les caractères ou expressions blacklistés.
+Il faut comprendre d'abord qu'il y a un control sur le deuxième argument du programme. A cet effet, la réussite de cette épreuve sera effective lorsque nous arrivons à afficher le contenu du fichier *f_l_a_g_* sans utiliser les caractères ou expressions blacklistés.
 
 Dans un premier temps, nous avons vérifié la taille du fichier *f_l_a_g_* en question puis effectué un filtre dessus tout en bypassant les caractères blacklistés et maintenir la variable _$PATH_ intacte.
 
