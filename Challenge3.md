@@ -1,8 +1,8 @@
 # HackerLab2020 - Challenge 3
 
 ## Challenge
-Après connexion sur le serveur ssh, nous avons un fichier SUID _chal0x01_ dont le fichier source _chal0x01.c_ est mis à notre disposition.
 
+Après connexion sur le serveur ssh, nous avons des fichiers dont un fichier SUID _chal0x01_ et un fichier source _chal0x01.c_ , dont le contenu est le suivant :
 ```c
 #define _XOPEN_SOURCE
 #include <stdlib.h>
