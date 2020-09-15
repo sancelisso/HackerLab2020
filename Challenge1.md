@@ -87,7 +87,7 @@ Rendu:
 
 ![Rendu](Images/column_name.png)
 
-Nous pouvons remarquer qu'en dehors des colonnes de la table _hack_hackerlab_ , nous d'autres colonnes qui sont pour la table users.
+Nous pouvons remarquer qu'en dehors des colonnes de la table _hack_hackerlab_ , nous avons d'autres colonnes qui sont pour la table users.
 
 * **Affichage du contenu de la table _users_**
 
