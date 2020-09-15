@@ -27,8 +27,7 @@ if (isset($_GET['q'])) {
 
 ?>
 ```
-Nous remarquons que pour réussir ce challenge, nous devons faire de telle sorte que les mots clés *union*, *select*, *or*, *from*, *where* et  l'espace _" "_ échapperont au control des fonctions *preg_replace* et *strpos*
-
+Nous remarquons que pour réussir ce challenge, nous devons faire de telle sorte que les mots clés *union*, *select*, *or*, *from*, *where* et  l'espace _" "_ échappent au control des fonctions *preg_replace* et *strpos*
 Ainsi, nous avons effectué plusieurs requêtes SQL avant d'atteindre le but.
 
 Premier payload: ```'OORROR(1=1)OORROR'a'='```
@@ -101,7 +100,7 @@ Nous obtenons ainsi le flag
 
 ```FLAG: CTF_Y0uAreAwas0m3_b__t___es```
 
-Cependant nous avons le début d'une clé publique. L'intégralité de la clé ne s'est pas affichéé à cause de la limite de la fonction _group_concat_. Alors nous sommes obligés de modifier notre requête.
+Cependant nous avons le début d'une clé publique. L'intégralité de la clé ne s'est pas affichéé à cause de la limite de la fonction _group_concat_. Nous sommes alors obligés de modifier notre requête.
 
 Nouveau Payload: ```inspiv'/**/uniunionon/**/all/**/seleselectct/**/1,passwoORrd,222,username/**/frfromom/**/users/**/#```
 
