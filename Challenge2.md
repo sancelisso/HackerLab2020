@@ -3,8 +3,11 @@
 ## Challenge
 
 >Pour la suite, il s'agit de se connecter par ssh sur cette IP:
->user: chal0x01
+
 >IP:51.210.43.224
+
+>user: chal0x01 
+
 >Port: 1022
 
 A cette étape, nous avons comme données : une clé publique, les informations de connexion à un serveur ssh,un message chiffré, mais pas de mot de passe. L'objectif ici est donc de trouver le mot de passe pour pouvoir se connecter.
