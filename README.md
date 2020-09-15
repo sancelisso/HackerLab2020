@@ -2,10 +2,10 @@
 Write-up des challenges de qualification au *HackerLab2020*
 
 > Made By **InspiV Team**
-  * **LISSANON Cédric** [@Sancelisso](https://twitter.com/Sancelisso)
-  * **ADJADI Rousland** [@casias161](https://twitter.com/casias161)
-  * **MIGNANHOUANDE David** [@migdavid98](https://twitter.com/migdavid98)
-  * **KIKISSAGBE Rolack**
+  * **LISSANON Cédric** _Sancelisso_ [@Sancelisso](https://twitter.com/Sancelisso)
+  * **ADJADI Rousland** _Nemesis31_ [@casias161](https://twitter.com/casias161)
+  * **MIGNANHOUANDE David** _M!G_ [@migdavid98](https://twitter.com/migdavid98)
+  * **KIKISSAGBE Rolack** _Ken_
 
   ## Challenges
 
