@@ -7,8 +7,7 @@ user: chal0x01
 IP:51.210.43.224
 Port: 1022
 
-A cete étape, nous avons comme données: une clé publique, les informations de connexion à un serveur ssh mais mot de passe. L'objectif ici est de trouver le mot de passe pour pouvoir se connecter.
-
+A cette étape, nous avons comme données : une clé publique, les informations de connexion à un serveur ssh,un message chiffré, mais pas mot de passe. L'objectif ici est donc de trouver le mot de passe pour pouvoir se connecter.
 ## Solution
 
 Pour y arriver, nous avons généré une clé privée à partir de la clé publique RSA avec l'outil [RSACtfTool](https://github.com/Ganapati/RsaCtfTool)
